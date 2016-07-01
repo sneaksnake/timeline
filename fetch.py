@@ -41,7 +41,7 @@ def fetch_tweets():
                 status.author.screen_name,
                 status.text,
                 status.id,
-                status.created_at.timestamp(),
+                status.created_at,
             )
         )
 
